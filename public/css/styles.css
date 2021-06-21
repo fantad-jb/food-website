@@ -1,0 +1,323 @@
+/**==Nhung class co trung attribute==**/
+
+body, .container, h1, p, .footer-copyright {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito' ,sans-serif;
+}
+
+.container, .top-body, .menu-items, .item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header, .left-header, .bottom-body {
+  grid-template-columns: auto auto;
+}
+
+.header, .left-header, .menu-items, .bottom-body, .pizza-dishes, .salad-dishes, .noodle-dishes {
+  display: grid;
+}
+
+.left-header, .img-left-body, .img-left-body-about {
+  margin-left: 30px;
+}
+
+.img-left-body, .img-left-body-about {
+  width: 530px;
+  height: 265px;
+  border-radius: 8px;
+}
+
+.top-body, .middle-body, .footer {
+  text-align: center;
+}
+
+.right-header, .button {
+  text-align: right;
+}
+
+.right-header, .dish, .left-body, .sub-desc, .button {
+  margin-right: 30px;
+}
+
+.dish-name, .dish-price, .sub-title {
+  font-size: 24px;
+}
+
+.small-name, .description-title, .menu-items, .dish-desc, .sub-desc, .read-button, .footer-copyright {
+  font-size: 19.2px;
+}
+
+.container-top, .footer {
+  padding-top: 30px;
+}
+
+.body, .menu-dishes {
+  margin-top: 30px;
+}
+
+.container-bottom, .container-middle, .container-top, .body, .read-button, .footer {
+  background-color: #fff;
+}
+
+.welcome-title, .sub-title {
+  margin-bottom: 10px;
+}
+
+.description-title, .dish-desc, .sub-desc, .read-button, .footer-copyright {
+  color: #343a40;
+}
+
+.item, .read-button {
+  padding: 10px;
+}
+
+.item, .dish-price {
+  color: #4aa96c;
+}
+
+.dish-name, .sub-title {
+  color: #4b778d;
+}
+
+.small-name, .welcome-title, .description-title, .item, .dish-desc, .sub-desc, .footer {
+  font-weight: 300;
+}
+
+.name-shop, a {
+  font-weight: 400;
+}
+
+.pizza-dishes, .salad-dishes, .noodle-dishes {
+  grid-template-columns: auto auto auto auto;
+}
+
+/**==Nhung class co trung attribute==**/
+
+
+
+/**==Nhung class dung cho javascript==**/
+
+.active {
+  border-bottom: 1px solid #fff;
+}
+
+.sub-active {
+  background-color: #4aa96c;
+  color: #fff;
+}
+
+/**==Nhung class dung cho javascript==**/
+
+body {
+  background-color: grey;
+}
+
+.container {
+  background-image: url("../img/simple-house-01.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 1200px;
+  height: auto;
+  padding-top: 420px;
+}
+
+.left-header {
+  width: 50%;
+}
+
+.logo-shop {
+  background-image: url("../img/simple-house-logo.png");
+  width: 60px;
+  height: 60px;
+}
+
+.name, a {
+  color: #fff;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.top-body {
+  padding-top: 30px;
+  width: 60%;
+}
+
+.container-middle {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.menu-items {
+  margin-top: 30px;
+  width: 60%;
+  grid-template-columns: auto auto auto;
+}
+
+.item {
+  width: 60%;
+  border: 1px solid #4aa96c;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.item:hover {
+  background-color: #4aa96c;
+  color: #fff;
+}
+
+.dish {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.dish img {
+  width: 250px;
+  height: 250px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.dish p {
+  text-align: left;
+  margin: 10px 10px 10px 10px;
+}
+
+/**--Pic cua menu pizza--**/
+
+.pizza-one {
+  background-image: url("../img/gallery/01.jpg");
+}
+
+.pizza-two {
+  background-image: url("../img/gallery/02.jpg");
+}
+
+.pizza-three {
+  background-image: url("../img/gallery/03.jpg");
+}
+
+.pizza-four {
+  background-image: url("../img/gallery/04.jpg");
+}
+
+.pizza-five {
+  background-image: url("../img/gallery/05.jpg");
+}
+
+.pizza-six {
+  background-image: url("../img/gallery/06.jpg");
+}
+
+.pizza-seven {
+  background-image: url("../img/gallery/07.jpg");
+}
+
+.pizza-eight {
+  background-image: url("../img/gallery/08.jpg");
+}
+
+/**--Pic cua menu pizza--**/
+
+
+/**--Pic cua menu salad--**/
+
+.salad-one {
+  background-image: url("../img/gallery/04.jpg");
+}
+
+.salad-two {
+  background-image: url("../img/gallery/03.jpg");
+}
+
+.salad-three {
+  background-image: url("../img/gallery/05.jpg");
+}
+
+.salad-four {
+  background-image: url("../img/gallery/01.jpg");
+}
+
+.salad-five {
+  background-image: url("../img/gallery/08.jpg");
+}
+
+.salad-six {
+  background-image: url("../img/gallery/07.jpg");
+}
+
+/**--Pic cua menu salad--**/
+
+
+/**--Pic cua menu noodle--**/
+
+.noodle-one {
+  background-image: url("../img/gallery/08.jpg");
+}
+
+.noodle-two {
+  background-image: url("../img/gallery/07.jpg");
+}
+
+.noodle-three {
+  background-image: url("../img/gallery/06.jpg");
+}
+
+.noodle-four {
+  background-image: url("../img/gallery/05.jpg");
+}
+
+.noodle-five {
+  background-image: url("../img/gallery/04.jpg");
+}
+
+.noodle-six {
+  background-image: url("../img/gallery/03.jpg");
+}
+
+/**--Pic cua menu noodle--**/
+
+.container-bottom {
+  padding-top: 90px;
+}
+
+.img-left-body {
+  background-image: url("../img/img-01.jpg");
+}
+
+.img-left-body-about {
+  background-image: url("../img/about-06.jpg");
+}
+
+.right-body {
+  padding-right: 60px;
+}
+
+.button {
+  margin-top: 90px;
+  margin-right: 90px;
+}
+
+.read-button {
+  border: 1px solid #343a40;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.read-button:hover {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.footer {
+  padding-bottom: 30px;
+}
